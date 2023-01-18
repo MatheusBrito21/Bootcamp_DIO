@@ -6,7 +6,7 @@ public class Main {
 	public static void main(String[] args) {
 
 		Bootcamp java = new Bootcamp();
-		java.setNome("Java Bootcamp - 2023");
+		java.setNome("Java Back end - 2023");
 		java.setDescricao("Dominando a linguagem Java");
 		
 		Curso pooJava = new Curso();
@@ -27,8 +27,13 @@ public class Main {
 		
 		Dev matheus = new Dev();
 		matheus.setNome("Matheus Brito");
-
+		matheus.inscriverBootcamp(java);
+		matheus.concluirCurso(pooJava);
+		matheus.inscriverMentoria(javaOCP);
+		matheus.concluirMentoria(javaOCP);
 		
+		
+		System.out.println(matheus);
 		System.out.println(java);
 //		System.out.println(java.getCursos().get(0).calcularXP());
 	}

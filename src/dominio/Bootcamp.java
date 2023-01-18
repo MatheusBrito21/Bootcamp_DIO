@@ -58,7 +58,7 @@ public class Bootcamp {
 	}
 	@Override
 	public String toString() {
-		return "Bootcamp \n[nome=" + nome + "\ndescricao=" + descricao + "\ndataInicio=" + dataInicio + "\ndataTermino="
+		return "\nBootcamp " + nome + "\ndescricao=" + descricao + "\ndataInicio=" + dataInicio + "\ndataTermino="
 				+ dataTermino + "\ndevsInscritos=" + devsInscritos + "\ncursos=" + cursos + "\nmentorias=" + mentorias
 				+ "]";
 	}
